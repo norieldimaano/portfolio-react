@@ -1,0 +1,68 @@
+.footer {
+  width: 100%;
+  padding: 6em 0;
+  background-color: rgba(19, 19, 19, 0.8);
+}
+.footer .footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.footer .footer-container .left {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.footer .footer-container .left .phone {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer-container .left .email {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.footer .footer-container .left .location {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+.footer .footer-container .left .fahome {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 2rem;
+}
+.footer .footer-container .left .faphone {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 2rem;
+}
+.footer .footer-container .left .famailbulk {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 2rem;
+}
+.footer .footer-container .right {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.footer .footer-container .right h4 {
+  padding-bottom: 0.7em;
+}
+.footer .footer-container .right .social {
+  margin-top: 1rem;
+  font-size: 28px;
+  color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .footer .footer-container {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=FooterStyle.css.map */
