@@ -1,0 +1,44 @@
+.work-container .project-heading {
+  text-align: center;
+  padding: 4em 0 2em 0;
+}
+.work-container .project-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding-bottom: 5em;
+}
+.work-container .project-container .project-card {
+  background: #1a1919;
+  padding: 1.2em 1em;
+}
+.work-container .project-container .project-card img {
+  width: 100%;
+}
+.work-container .project-container .project-card .project-title {
+  color: #fff;
+  padding: 1em 0;
+}
+.work-container .project-container .project-card .pro-details p {
+  padding-bottom: 1em;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.work-container .project-container .project-card .pro-details .pro-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0;
+}
+.work-container .project-container .project-card .pro-details .pro-btns .btn {
+  padding: 0.5em 1em;
+}
+
+@media screen and (max-width: 740px) {
+  .work-container .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=WorkCard.css.map */

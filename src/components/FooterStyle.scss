@@ -3,7 +3,7 @@
     padding: 1em 0;
     background-color: rgba(19, 19, 19, 0.8);
     .footer-container{
-        max-width: 1140px;
+        max-width: 750px;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -26,22 +26,22 @@
             }
             .location{
                 display: flex;
-                margin-bottom: 0.8rem;
+                margin-bottom: 0.5rem;
             }
             .fahome{
                 font-size: 20px;
                 color: #fff;
-                margin-right: 2rem;
+                margin-right: 3%;
             }
             .faphone{
                 font-size: 20px;
                 color: #fff;
-                margin-right: 2rem;
+                margin-right: 3%;
             }
             .famailbulk{
                 font-size: 20px;
                 color: #fff;
-                margin-right: 2rem;
+                margin-right: 3%;
                 
             }
         }
@@ -63,9 +63,11 @@
     }
 }
 
+
 @media screen and (max-width: 640px){
     .footer{
         .footer-container{
+            margin-left: auto;
             grid-template-columns: 1fr;
         }
     }

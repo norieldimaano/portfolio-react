@@ -44,6 +44,17 @@
     }
 }
 
+
+@media screen and (max-width:1400px){
+    .hero{
+        .content{
+            h1{
+                font-size: 3.5rem;
+            }
+        }
+    }
+}
+
 @media screen and (max-width:640px){
     .hero{
         .content{

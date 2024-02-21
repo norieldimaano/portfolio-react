@@ -31,7 +31,6 @@
   transition: 1s;
 }
 
-/**** Mobile ****/
 @media screen and (max-width: 1040px) {
   .header .home {
     font-size: 2rem;
