@@ -7,10 +7,10 @@ class HeroImg2 extends Component {
     render(){
         return (
             <div>
-                <div className='hero-img'>
-                    <img className='intro-img' src={Intro2Img} alt='Intro2Img'/>
+                <div className="hero-img">
+                    <img className="intro-img" src={Intro2Img} alt="Intro2Img"/>
                 </div>
-                <div className='heading'>
+                <div className="heading">
                     <h1>{this.props.heading}</h1>
                     <p>{this.props.text}</p>
                 </div>

@@ -16,14 +16,14 @@ const Navbar = () => {
             setColor(false);
         }
     };
-    window.addEventListener('scroll', changeColor)
+    window.addEventListener("scroll", changeColor)
 
   return (
-    <div className={color ? 'header header-bg' : 'header'}>
-        <Link to='/' className='home'>
+    <div className={color ? "header header-bg" : "header"}>
+        <Link to="/" className="home">
             <hi>Portfolio</hi>
         </Link>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
                 <Link to="/">Home</Link>
             </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 <Link to="/contact">Contact</Link>
             </li>
         </ul>
-        <div className='bars' onClick={handleClick}>
+        <div className="bars" onClick={handleClick}>
             {click ? (<FaTimes />) :(<FaBars />  )}
         </div>
     </div>

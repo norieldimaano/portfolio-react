@@ -3,7 +3,7 @@
     padding: 1em 0;
     background-color: rgba(19, 19, 19, 0.8);
     .footer-container{
-        max-width: 750px;
+        max-width: 100%;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -13,7 +13,7 @@
             max-width: 100%;
             display: flex;
             flex-direction: column;
-            padding: 1em;
+            padding: 1em 1em 1em 4em;
             .phone{
                 display: flex;
                 flex-direction: row;
@@ -31,17 +31,17 @@
             .fahome{
                 font-size: 20px;
                 color: #fff;
-                margin-right: 3%;
+                margin-right: 2%;
             }
             .faphone{
                 font-size: 20px;
                 color: #fff;
-                margin-right: 3%;
+                margin-right: 2%;
             }
             .famailbulk{
                 font-size: 20px;
                 color: #fff;
-                margin-right: 3%;
+                margin-right: 2%;
                 
             }
         }
@@ -50,7 +50,7 @@
             max-width: 100%;
             display: flex;
             flex-direction: column;
-            padding: 1em;
+            padding: 1em 1em 1em 25em;
             h4{
                 padding-bottom: 0.5em;
             }
@@ -63,12 +63,42 @@
     }
 }
 
+@media screen and (max-width: 1600px) {
+    .footer{
+        .footer-container{
+            max-width: 100%;
+            .left{
+                padding: 1em 1em 1em 3em;
+            }
+            .right{
+                padding: 1em 1em 1em 15em;
+            }
+        }
+    }
+}
+
 
 @media screen and (max-width: 640px){
     .footer{
         .footer-container{
             margin-left: auto;
             grid-template-columns: 1fr;
-        }
+            .left{
+                padding: 1em;
+                .fahome{
+                    margin-right: 3%;
+                }
+                .faphone{
+                    margin-right: 3%;
+                }
+                .famailbulk{
+                    margin-right: 3%;
+                    
+                }
+            }
+            .right{
+                padding: 1em;
+            }
+        } 
     }
 }
