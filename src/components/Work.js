@@ -14,6 +14,7 @@ const Work = () => {
                     key={ind}
                     imgsrc={val.imgsrc}
                     title={val.title}
+                    lang={val.lang}
                     text={val.text}
                     view={val.view}
                     />

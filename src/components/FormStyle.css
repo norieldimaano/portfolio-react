@@ -26,4 +26,8 @@ form textarea {
   border-color: rgba(255, 255, 255, 0.1);
   color: #f4f4f4;
   height: 150px;
+}
+form span {
+  font-size: 50px;
+  color: #fff;
 }/*# sourceMappingURL=FormStyle.css.map */

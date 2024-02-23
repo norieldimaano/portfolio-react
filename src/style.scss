@@ -27,13 +27,13 @@ body{
     padding: 12px 32px;
     font-size: 1rem;
     text-transform: uppercase;
-    background-color: #00A6FB;
-    color: #222;
+    background-color: rgb(221, 21, 84);
+    color: #000;
     border: 1px solid #EBEBEB;
     font-weight: 600;
     cursor: pointer;
     &:hover{
-        background: rgba(255, 255, 255, 0.2);
+        background: #ff004f;
         color: #fff;
         transition: 0.3s;
     }
