@@ -10,7 +10,7 @@ const Project = () => {
   return (
     <>
     <Navbar />
-    <HeroImg2 heading="PROJECTS" text="Some of my recent works"/>
+    <HeroImg2 heading="PROJECTS" text="All of my projects can be found here. These projects have taught me a lot about responsive designing, API and functional buttons. All of the sample projects are available for viewing."/>
     <Work />
     <PricingCard />
     <Footer />

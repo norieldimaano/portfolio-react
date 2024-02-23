@@ -12,6 +12,9 @@
   font-size: 2.2rem;
   font-weight: 700;
 }
+.header h1 {
+  font-size: 3rem;
+}
 .header a {
   font-size: 2rem;
   font-weight: 500;
@@ -46,6 +49,9 @@
 }
 
 @media screen and (max-width: 1040px) {
+  .header h1 {
+    font-size: 2.2rem;
+  }
   .header .home {
     font-size: 2rem;
   }
