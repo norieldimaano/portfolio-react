@@ -18,7 +18,7 @@ const Form = () => {
   }
   return (
     <div>
-        <form name="submit-to-google-sheet" className="form" onSubmit={(e)=> Submit(e)}>
+        <form name="submit-to-google-sheet" className="form" onSubmit={(e)=> Submit(e)} autocomplete="off">
             <label>Your Name</label>
             <input placeholder="Name" name="Name" type="text" required/>
             <label>Email</label>
