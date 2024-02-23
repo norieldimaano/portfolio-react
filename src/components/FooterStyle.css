@@ -60,6 +60,12 @@
   font-size: 28px;
   color: #fff;
 }
+.footer .footer-container .right .social .hover-up {
+  transition: transform 0.5s;
+}
+.footer .footer-container .right .social .hover-up:hover {
+  transform: translateY(-5px);
+}
 
 @media screen and (max-width: 1600px) {
   .footer .footer-container {

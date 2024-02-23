@@ -58,6 +58,12 @@
                 margin-top: 1rem;
                 font-size: 28px;
                 color: #fff;
+                .hover-up{
+                    transition: transform 0.5s;
+                    &:hover{
+                        transform: translateY(-5px);
+                    }
+                }
             }
         }
     }
