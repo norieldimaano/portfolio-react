@@ -98,4 +98,10 @@
   .footer .footer-container .right {
     padding: 1em;
   }
+  .footer .footer-container .right .social .hover-up {
+    transition: transform 0;
+  }
+  .footer .footer-container .right .social .hover-up:hover {
+    transform: none;
+  }
 }/*# sourceMappingURL=FooterStyle.css.map */

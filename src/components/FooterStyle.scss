@@ -104,6 +104,14 @@
             }
             .right{
                 padding: 1em;
+                .social{
+                    .hover-up{
+                        transition: transform 0;
+                        &:hover{
+                            transform: none;
+                        }
+                    }
+                }
             }
         } 
     }
