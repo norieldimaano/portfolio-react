@@ -13,7 +13,7 @@
             background: #1a1919;
             padding: 1.2em 1em 5em 1em;
             word-wrap: break-word;
-            height: 80vh;
+            height: 60vh;
             h2{
                 margin-bottom: -7px;
             }
@@ -58,7 +58,7 @@
         .project-container{
             max-width: 1240px;
             .project-card{
-                height: 70vh;
+                height: 80vh;
                 .pro-details{
                     height: 33%;
                 }
@@ -74,6 +74,7 @@
             margin: auto;
             grid-template-columns: (1fr);
             .project-card{
+                height: 70vh;
                 h2{
                     margin-bottom: -10px;
                 }
