@@ -9,6 +9,8 @@ import project8 from '../project-images/project8.png'
 import project9 from '../project-images/project9.png'
 import project10 from '../project-images/project10.png'
 import project11 from '../project-images/project11.png'
+import project12 from '../project-images/project12.png'
+import project13 from '../project-images/project13.png'
 
 
 
@@ -90,6 +92,20 @@ const ProjectCardData = [
         lang: "React",
         text: "An expense tracker is an application that allows individuals or businesses to monitor and record their spending in order to track and manage their financial activities.",
         view: "https://noriel-expense-tracker-react.netlify.app/",
+    },
+    {
+        imgsrc: project12,
+        title: "QR Generator",
+        lang: "JavaScript",
+        text: "This website allows user to create or generate QR codes",
+        view: "https://noriel-qr-generator.netlify.app",
+    },
+    {
+        imgsrc: project13,
+        title: "Cursor Animation",
+        lang: "JavaScript",
+        text: "Animated cursor",
+        view: "https://noriel-cursor-animation.netlify.app",
     },
 ];
 
