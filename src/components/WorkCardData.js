@@ -11,6 +11,8 @@ import project10 from '../project-images/project10.png'
 import project11 from '../project-images/project11.png'
 import project12 from '../project-images/project12.png'
 import project13 from '../project-images/project13.png'
+import project14 from '../project-images/project14.png'
+import project15 from '../project-images/project15.png'
 
 
 
@@ -106,6 +108,20 @@ const ProjectCardData = [
         lang: "JavaScript",
         text: "Animated cursor",
         view: "https://noriel-cursor-animation.netlify.app",
+    },
+    {
+        imgsrc: project14,
+        title: "Apple Website Clone",
+        lang: "HTML/CSS",
+        text: "",
+        view: "https://noriel-iphone-clone-1.netlify.app",
+    },
+    {
+        imgsrc: project15,
+        title: "HOLYSLICE",
+        lang: "HTML/CSS",
+        text: "A pizza restaurant website",
+        view: "https://noriel-holyslice.netlify.app",
     },
 ];
 
